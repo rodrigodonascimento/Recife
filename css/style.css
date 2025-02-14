@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Josefin_Sans;
+}
+
+@font-face {
+    font-family: Josefin_Sans;
+    src: url("../src/fonts/Josefin_Sans/JosefinSans-Light.ttf");
+}
+
+header {
+    height: 10vh;
+    background-color: #E6E6FA;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+}
+
+.menu {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    height: 80vh;
+    background-color: #FFF0F5;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_corpo_pagina {
+    margin-bottom: 10px;
+}
+
+.imagem_corpo_pagina {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 10vh;
+    background-color: #D8BFD8;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
